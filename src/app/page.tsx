@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center text-center space-y-10 animate-in fade-in slide-in-from-bottom-4 duration-1000">
@@ -28,18 +30,18 @@ export default function Home() {
       </p>
 
       <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 w-full max-w-md px-4">
-        <a 
-          href="./projects/" 
+        <Link 
+          href="/projects/" 
           className="flex-1 px-8 py-4 bg-slate-900 text-white font-bold rounded-2xl shadow-xl hover:bg-blue-600 transition-all duration-300 hover:scale-105"
         >
           Explore Projects
-        </a>
-        <a 
-          href="./contact/" 
+        </Link>
+        <Link 
+          href="/contact/" 
           className="flex-1 px-8 py-4 bg-white text-slate-900 font-bold border-2 border-slate-200 rounded-2xl shadow-sm hover:border-blue-600 transition-all duration-300 hover:scale-105"
         >
           Let's Connect
-        </a>
+        </Link>
       </div>
 
       {/* Decorative Banner Image */}
