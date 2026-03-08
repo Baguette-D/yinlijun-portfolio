@@ -29,13 +29,13 @@ export default function Home() {
 
       <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 w-full max-w-md px-4">
         <a 
-          href="/yinlijun-portfolio/projects/" 
+          href="./projects/" 
           className="flex-1 px-8 py-4 bg-slate-900 text-white font-bold rounded-2xl shadow-xl hover:bg-blue-600 transition-all duration-300 hover:scale-105"
         >
           Explore Projects
         </a>
         <a 
-          href="/yinlijun-portfolio/contact/" 
+          href="./contact/" 
           className="flex-1 px-8 py-4 bg-white text-slate-900 font-bold border-2 border-slate-200 rounded-2xl shadow-sm hover:border-blue-600 transition-all duration-300 hover:scale-105"
         >
           Let's Connect
