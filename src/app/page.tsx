@@ -3,14 +3,14 @@ import Link from "next/link";
 export default function Home() {
   const focusImages = [
     {
-      url: "https://images.unsplash.com/photo-1718031413133-fb0900300093?auto=format&fit=crop&q=80&w=800",
+      url: "https://images.unsplash.com/photo-1542332213-31f87348057f?auto=format&fit=crop&q=80&w=800",
       label: "Hydrogen Energy",
-      desc: "Clean & Sustainable Infrastructure"
+      desc: "Storage & High-Pressure Systems"
     },
     {
-      url: "https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&q=80&w=800",
+      url: "https://images.unsplash.com/photo-1510134444589-9efad1143891?auto=format&fit=crop&q=80&w=800",
       label: "Special Equipment",
-      desc: "Safety & Structural Integrity"
+      desc: "Pressure Vessels & Safe Infrastructure"
     },
     {
       url: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
