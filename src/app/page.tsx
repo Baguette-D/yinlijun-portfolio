@@ -1,6 +1,24 @@
 import Link from "next/link";
 
 export default function Home() {
+  const focusImages = [
+    {
+      url: "https://images.unsplash.com/photo-1718031413133-fb0900300093?auto=format&fit=crop&q=80&w=800",
+      label: "Hydrogen Energy",
+      desc: "Clean & Sustainable Infrastructure"
+    },
+    {
+      url: "https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&q=80&w=800",
+      label: "Special Equipment",
+      desc: "Safety & Structural Integrity"
+    },
+    {
+      url: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
+      label: "AI Integration",
+      desc: "Digital Transformation & Intelligence"
+    }
+  ];
+
   return (
     <div className="flex flex-col items-center justify-center text-center space-y-10 animate-in fade-in slide-in-from-bottom-4 duration-1000">
       {/* Profile Image Section */}
@@ -44,13 +62,21 @@ export default function Home() {
         </Link>
       </div>
 
-      {/* Decorative Banner Image */}
-      <div className="w-full max-w-4xl mt-12 rounded-3xl overflow-hidden shadow-2xl border border-slate-100">
-        <img 
-          src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800" 
-          alt="Engineering & Innovation"
-          className="w-full h-64 object-cover opacity-90"
-        />
+      {/* Focus Areas Image Grid */}
+      <div className="w-full max-w-5xl mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 px-4 pb-12">
+        {focusImages.map((img, idx) => (
+          <div key={idx} className="relative h-64 rounded-3xl overflow-hidden shadow-lg group">
+            <img 
+              src={img.url} 
+              alt={img.label}
+              className="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-6 text-left">
+              <p className="text-white font-black text-xl">{img.label}</p>
+              <p className="text-blue-200 text-sm font-medium">{img.desc}</p>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );
