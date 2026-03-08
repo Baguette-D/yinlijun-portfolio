@@ -4,21 +4,21 @@ export default function Projects() {
       title: "Hydrogen Energy Observer",
       description: "A comprehensive analytical report series focusing on global hydrogen standards and high-pressure vessel safety.",
       tag: "Hydrogen",
-      image: "https://images.unsplash.com/photo-1558449028-b53a39d100fc?auto=format&fit=crop&q=80&w=400",
+      image: "https://images.unsplash.com/photo-1692695241048-245815d24b3d?auto=format&fit=crop&q=80&w=600",
       icon: "💧"
     },
     {
       title: "AI Risk Framework",
       description: "Defining evaluation metrics for artificial intelligence application in safety-critical industrial equipment.",
       tag: "AI & Data",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=400",
+      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=600",
       icon: "🤖"
     },
     {
       title: "Next-Gen Policy Pre-Research",
       description: "Strategic foresight and policy recommendations for the '15th Five-Year Plan' in special equipment regulation.",
       tag: "Policy",
-      image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=400",
+      image: "https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&q=80&w=600",
       icon: "📈"
     }
   ];
