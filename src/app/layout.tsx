@@ -33,8 +33,8 @@ export default function RootLayout({
             <Link href="/" className="text-xl font-bold text-blue-600">Portfolio</Link>
             <div className="space-x-6">
               <Link href="/" className="hover:text-blue-600 transition">Home</Link>
-              <Link href="/projects" className="hover:text-blue-600 transition">Projects</Link>
-              <Link href="/contact" className="hover:text-blue-600 transition">Contact</Link>
+              <Link href="/projects/" className="hover:text-blue-600 transition">Projects</Link>
+              <Link href="/contact/" className="hover:text-blue-600 transition">Contact</Link>
             </div>
           </div>
         </nav>
